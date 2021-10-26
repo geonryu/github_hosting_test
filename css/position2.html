@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #wrap{
+            width: 1200px;
+            height: 1200px;
+
+            margin: 0 auto;
+            background-color: teal;
+            position: relative;
+
+        }
+
+        #container {
+            width: 1000px;
+            height: 1000px;
+            margin: 0 auto;
+            background-color: #aaa;
+        }
+
+        #container div{
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+            border: 3px solid orangered;
+        }
+
+        .box1{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .box2{
+            position: relative;
+            top: 30px;
+            right: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="container">
+            <div class="box1">box1</div>
+            <div class="box2">box2</div>
+            <div class="box3">box3</div>
+            <div class="box4">box4</div>
+            <div class="box5">box5</div>
+        </div>
+    </div>
+</body>
+</html>
